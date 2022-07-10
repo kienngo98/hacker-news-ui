@@ -1,0 +1,30 @@
+.Card {
+    color: #333;
+    width: 720px;
+    max-width: 95vw;
+    padding: 20px;
+    margin-top: 15px;
+    border: 3px solid #333;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.Card:hover {
+    color: white;
+    background-color: #333;
+}
+
+.postUrl {
+    color: gray;
+    font-size: 13px;
+    display: block;
+}
+
+.postUrl:hover {
+    text-decoration: underline;
+}
+
+.postTitle {
+    font-weight: bold;
+}
